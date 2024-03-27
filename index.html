@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travelling Website</title>
+    <!-- awesome font link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"> href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/style.css">
+
+    </style>
+
+</head>
+
+<body>
+
+    <!-- header section starts -->
+    <header>
+        <div id="menu-bar" class="fas fa-bars"></div>
+        <img src="images/p1.png" class="photo" alt="">
+        <a href="#" class="logo"> <span>T</span>ravel <span>n</span>epal</a>
+
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#book">book</a>
+            <a href="#packages">packages</a>
+            <a href="#services">services</a>
+            <a href="#gallery">gallery</a>
+            <a href="#review">review</a>
+            <a href="#contact">contact</a>
+        </nav>
+        <div class="icons">
+            <i class="fas fa-search" id="search-btn"></i>
+            <i class="fas fa-user" id="login-btn"></i>
+        </div>
+        <form action="" class="search-bar-container">
+            <input type="search" id="search-bar" placeholder="search here...">
+            <label for="search-bar" class="fas fa-search"></label>
+
+        </form>
+    </header>
+    <!-- header section ends -->
+    <!-- login form container  -->
+    <div class="login-form-container">
+
+        <i class="fas fa-times" id="form-close"></i>
+
+        <form action="">
+            <!-- <img src="login.webp" alt="" id="pho"> -->
+            <h3>login</h3>
+            <input type="email" class="box" placeholder="Enter your email">
+            <input type="password" class="box" placeholder="Enter your password">
+            <input type="submit" class="btn" value="login now">
+            <input type="checkbox" id="remember">
+            <label for="remember">remember me</label>
+            <p>forget password?<a href="#">click here</a></p>
+            <p>don't have an account?<a href="#">register now</a></p>
+        </form>
+    </div>
+
+    <!-- home section starts -->
+    <section class="home" id="home">
+        <div class="content">
+            <h3 class="border"> adventure is worthwhile</h3>
+            <p class="border1">discover new places with us, adventure awaits</p>
+            <a href="#" class="btn">discover more</a>
+        </div>
+
+        <div class="controls">
+            <span class="vid-btn active" data-src="images/vid.mp4"></span>
+            <span class="vid-btn" data-src="images/vid1.mp4"></span>
+            <span class="vid-btn" data-src="images/vid2.mp4"></span>
+            <span class="vid-btn" data-src="images/vid-4.mp4"></span>
+            <span class="vid-btn" data-src="images/vid-5.mp4"></span>
+        </div>
+
+        <div class="video-container">
+            <video src="images/vid.mp4" id="video-slider" loop autoplay muted></video>
+        </div>
+    </section>
+    <!-- home section ends -->
+
+    <!-- book section starts -->
+    <section class="book" id="book">
+        <h1 class="heading">
+            <span>b</span>
+            <span>o</span>
+            <span>o</span>
+            <span>k</span>
+            <span class="space"></span>
+            <span>n</span>
+            <span>o</span>
+            <span>w</span>
+        </h1>
+
+        <div class="row">
+            <div class="image">
+                <img src="images/book-img.svg" alt="">
+            </div>
+            <form action="">
+                <div class="inputBox">
+                    <h3>where to</h3>
+                    <input type="text" placeholder="place name">
+                </div>
+                <div class="inputBox">
+                    <h3>how many</h3>
+                    <input type="number" placeholder="number of guests">
+                </div>
+                <div class="inputBox">
+                    <h3>arrivals</h3>
+                    <input type="date">
+                </div>
+                <div class="inputBox">
+                    <h3>leaving</h3>
+                    <input type="date">
+                </div>
+                <input type="submit" value="book now" class="btn">
+            </form>
+        </div>
+    </section>
+    <!-- book section ends -->
+
+    <!-- packages section stats -->
+    <section class="packages" id="packages">
+        <h1 class="heading">
+            <span>p</span>
+            <span>a</span>
+            <span>k</span>
+            <span>c</span>
+            <span>a</span>
+            <span>g</span>
+            <span>e</span>
+            <span>s</span>
+        </h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="images/pasupati.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i>pasupati</h3>
+                    <p style="text-align:left;">Pashupati (Sanskrit Paśupati; devanagari पशुपति ) is a Hindu deity and an incarnation of the Hindu god Shiva as "lord of the animals". Why is Shiva called pasupati? Lord Shiva is considered the Lord of knowledge — Jnanam maheshwarat
+                        icchet. Only by the grace of Lord Shiva can the jiva be liberated from the pasha or the bondage caused by maya. Hence the name Pashupati — The Lord who can make the pashu free from the pasha and grant liberation.
+                    </p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+
+                    </div>
+                    <div class="price">$90.00 <span>$120.00</span></div>
+                    <a href="#" class="btn">book now</a>
+
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/mt.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i>mt. Everest</h3>
+                    <p style="text-align:left;">Mount Everest is a peak in the Himalaya mountain range. It is located between Nepal and Tibet, an autonomous region of China. At 8,849 meters (29,032 feet), it is considered the tallest point on Earth. In the nineteenth century, the
+                        mountain was named after George Everes
+                    </p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+
+                    </div>
+                    <div class="price">$90.00 <span>$120.00</span></div>
+                    <a href="#" class="btn">book now</a>
+
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/janaki.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i>janakpur</h3>
+                    <p style="text-align:left;">janaki temple is one of the renowned Hindu temples which is dedicated to Hindu Goddess Sita. It is also named as Nau Lakha Mandir by the locals as the cost for the construction of the temple was nine lakhs. Queen Vrisha Bhanu of Tikamgarh,
+                        India built the temple in 1911 AD.
+                    </p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+
+                    </div>
+                    <div class="price">$90.00 <span>$120.00</span></div>
+                    <a href="#" class="btn">book now</a>
+
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/lumbini.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i>lumbini</h3>
+                    <p style="text-align:left;">Lumbinī is a Buddhist pilgrimage site in the Rupandehi District of Lumbini Province in Nepal. It is the place where, according to Buddhist tradition, Queen Mahamayadevi gave birth to Siddhartha Gautama at around 563 BCE
+                    </p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+
+                    </div>
+                    <div class="price">$90.00 <span>$120.00</span></div>
+                    <a href="#" class="btn">book now</a>
+
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/pokhara.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i>pokhara</h3>
+                    <p style="text-align:left;">Pokhara is a city on Phewa Lake, in central Nepal. It’s known as a gateway to the Annapurna Circuit, a popular trail in the Himalayas. Tal Barahi Temple, a 2-story pagoda, sits on an island in the lake. On the eastern shore, the Lakeside
+                        district has yoga centers and restaurants. In the city’s south, the International Mountain Museum has exhibits on the history of mountaineering and the people of the Himalayas.
+                    </p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+
+                    </div>
+                    <div class="price">$90.00 <span>$120.00</span></div>
+                    <a href="#" class="btn">book now</a>
+
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/mustang.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i>mustang</h3>
+                    <p style="text-align:left;">Mustang District is one of the eleven districts of Gandaki Province and one of seventy-seven districts of Nepal. It covers an area of 3,573 km² and has a population of 13,452. The headquarters is located at Jomsom. Mustang is the 5th
+                        largest district of Nepal.
+
+                    </p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+
+                    </div>
+                    <div class="price">$90.00 <span>$120.00</span></div>
+                    <a href="#" class="btn">book now</a>
+
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/saptakoshi.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i>saptakoshi river</h3>
+                    <p style="text-align:left;">The Kosi or Koshi is a transboundary river which flows through China, Nepal and India. It drains the northern slopes of the Himalayas in Tibet and the southern slopes in Nepal. Length: 729 km
+
+                    </p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+
+                    </div>
+                    <div class="price">$90.00 <span>$120.00</span></div>
+                    <a href="#" class="btn">book now</a>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- packages section ends -->
+    <!-- service section starts -->
+    <section class="services" id="services">
+        <h1 class="heading">
+            <span>s</span>
+            <span>e</span>
+            <span>r</span>
+            <span>v</span>
+            <span>i</span>
+            <span>c</span>
+            <span>e</span>
+            <span>s</span>
+        </h1>
+        <div class="box-container">
+            <div class="box">
+                <i class="fas fa-hotel"></i>
+                <h3>affordable hotels</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quidem totam dolores similique numquam animi distinctio labore perferendis vitae doloribus?</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-utensils"></i>
+                <h3>food and drinks</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quidem totam dolores similique numquam animi distinctio labore perferendis vitae doloribus?</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-bullhorn"></i>
+                <h3>safety guide</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quidem totam dolores similique numquam animi distinctio labore perferendis vitae doloribus?</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-globe-asia"></i>
+                <h3>around the world</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quidem totam dolores similique numquam animi distinctio labore perferendis vitae doloribus?</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-plane"></i>
+                <h3>fastest travel</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quidem totam dolores similique numquam animi distinctio labore perferendis vitae doloribus?</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-hiking"></i>
+                <h3>adventures</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quidem totam dolores similique numquam animi distinctio labore perferendis vitae doloribus?</p>
+            </div>
+        </div>
+    </section>
+    <!-- service section ends -->
+    <!-- gallery section starts -->
+    <section class="gallery" id="gallery">
+        <h1 class="heading">
+            <span>g</span>
+            <span>a</span>
+            <span>l</span>
+            <span>l</span>
+            <span>e</span>
+            <span>r</span>
+            <span>y</span>
+
+        </h1>
+
+        <div class="box-container">
+            <div class="box">
+                <img src="images/my0.jpg" alt="">
+                <div class="content">
+                    <h3>developer</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur perferendis quis explicabo quaerat est delectus cumque esse. Cumque, perspiciatis explicabo.</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/my1.jpg" alt="">
+                <div class="content">
+                    <h3>talbarahi temple</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur perferendis quis explicabo quaerat est delectus cumque esse. Cumque, perspiciatis explicabo.</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/my2.jpg" alt="">
+                <div class="content">
+                    <h3>green hill</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur perferendis quis explicabo quaerat est delectus cumque esse. Cumque, perspiciatis explicabo.</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/my3.jpg" alt="">
+                <div class="content">
+                    <h3>cycling experience</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur perferendis quis explicabo quaerat est delectus cumque esse. Cumque, perspiciatis explicabo.</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/g-1.jpg" alt="">
+                <div class="content">
+                    <h3>amaging place</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur perferendis quis explicabo quaerat est delectus cumque esse. Cumque, perspiciatis explicabo.</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/my5.jpg" alt="">
+                <div class="content">
+                    <h3>religious temple</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur perferendis quis explicabo quaerat est delectus cumque esse. Cumque, perspiciatis explicabo.</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/my4.jpg" alt="">
+                <div class="content">
+                    <h3>sita temple pokhara</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur perferendis quis explicabo quaerat est delectus cumque esse. Cumque, perspiciatis explicabo.</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/g-8.jpg" alt="">
+                <div class="content">
+                    <h3>peace place</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur perferendis quis explicabo quaerat est delectus cumque esse. Cumque, perspiciatis explicabo.</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- gallery section ends -->
+    <!-- review section starts -->
+    <div class="review" id="review">
+        <h1 class="heading">
+            <span>r</span>
+            <span>e</span>
+            <span>v</span>
+            <span>i</span>
+            <span>e</span>
+            <span>w</span>
+        </h1>
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="images/dipesh.png" alt="">
+                        <h3>dipesh dahal</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas, ea.</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="images/braham.png" alt="">
+                        <h3>Brahamdev rajak</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas, ea.</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="images/abhi.png" alt="">
+                        <h3>Abhinash chaudhari</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas, ea.</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="images/roshan.png" alt="">
+                        <h3>roshan shah</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas, ea.</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="images/braham.png" alt="">
+                        <h3>Brahamdev rajak</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas, ea.</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fast fa-sar"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- review section ends -->
+
+    <!-- contact section starts here -->
+    <section class="contact" id="contact">
+        <h1 class="heading">
+            <span>c</span>
+            <span>o</span>
+            <span>n</span>
+            <span>t</span>
+            <span>a</span>
+            <span>c</span>
+            <span>t</span>
+        </h1>
+        <div class="row">
+            <div class="image">
+                <img src="images/c3.jfif" alt="">
+            </div>
+            <form action="">
+                <div class="inputBox">
+                    <input type="text" placeholder="name">
+                    <input type="email" placeholder="email">
+                </div>
+                <div class="inputBox">
+                    <input type="number" placeholder="number">
+                    <input type="text" placeholder="subject">
+                </div>
+                <textarea placeholder="message" name="" id="" cols="30" rows="10"></textarea>
+                <input type="submit" class="btn" value="send message">
+            </form>
+        </div>
+    </section>
+    <!-- contact section ends here -->
+    <!-- brand section starts here -->
+    <section class="brand-container">
+        <div class="swiper mySwiper brand-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="images/1.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/2.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/3.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/4.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/5.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/6.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- brand section starts here -->
+
+
+
+
+
+
+    <script src="js/script.js"></script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {});
+        //         var swiper = new Swiper(".review-slider", {
+        //     spaceBetween: 20,
+        //     loop: true,
+        //     autoplay: {
+        //         delay: 2500,
+        //         disableOnIteration: false,
+        //     },
+        //     breakpoints: {
+        //         640: {
+        //             slidePerView: 1,
+        //         },
+        //         768: {
+        //             slidePerView: 2,
+        //         },
+        //         1024 {
+        //             slidePerView: 3,
+        //         },
+        //     },
+        // });
+        //
+    </script>
+    <!-- from swiper -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js">
+            var swiper = new Swiper(".review-slider", {
+                spaceBetween: 20,
+                loop: true,
+            });
+        </script> -->
+
+</body>
+
+</html>
